@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.hero{
+  background-image: url("../img/hero-slide1.jpg");
+  background-size: cover;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+ .main-logo{
+   height: 40px;
+ }
+
+.hero .logo-text{
+  height: 40px;
+}
+
+.navbar-button{
+  height: 30px;
+}
+
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 45px;
+}
+
+.header p {
+  color: white;
+  font-size: .9em;
+  letter-spacing: 3px;
+  /*position: absolute;
+  margin-top: 80px:*/
+}
+
+.header .alaska-icon {
+  height: 55px;
+  opacity: .65;
+}
+
+.header .logo-text {
+  height: 100px;
+  margin: -35px auto;
+}
+
+.heading-sep {
+  background: white;
+  width: 250px;
+  height: 5px;
+  margin: 25px auto;
+
+}
+
+.play-button{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  border-radius: 50%;
+  position:relative;
+  height: 80px;
+  width: 80px;
+}
+
+
+.play{
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+.rafting{
+  background-image: url("../img/rafting.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.raft-icon{
+  height: 30px:auto;
+}
